@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>EmesVTU - Fast & Affordable VTU Services</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f8ff;
+      color: #111827;
+    }
+
+    header {
+      background: #0b1f4d;
+      color: white;
+      padding: 18px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .login {
+      color: white;
+      text-decoration: none;
+      border: 1px solid white;
+      padding: 9px 18px;
+      border-radius: 8px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 75px 20px;
+      background: linear-gradient(135deg, #0b1f4d, #1261d6);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 38px;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      font-size: 17px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: white;
+      color: #0b1f4d;
+      padding: 14px 28px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .services {
+      padding: 45px 6%;
+      text-align: center;
+    }
+
+    .services h2 {
+      margin-bottom: 25px;
+      font-size: 28px;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .service {
+      background: white;
+      padding: 25px 10px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      font-weight: bold;
+    }
+
+    .icon {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #0b1f4d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @media (min-width: 700px) {
+      .service-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">EmesVTU</div>
+    <a href="#" class="login">Login</a>
+  </header>
+
+  <section class="hero">
+    <h1>Fast, Secure & Affordable VTU Services</h1>
+
+    <p>
+      Buy airtime, data and pay bills quickly and conveniently.
+    </p>
+
+    <a href="#" class="btn">Get Started</a>
+  </section>
+
+  <section class="services">
+
+    <h2>Our Services</h2>
+
+    <div class="service-grid">
+
+      <div class="service">
+        <div class="icon">📱</div>
+        Airtime
+      </div>
+
+      <div class="service">
+        <div class="icon">📶</div>
+        Data
+      </div>
+
+      <div class="service">
+        <div class="icon">⚡</div>
+        Electricity
+      </div>
+
+      <div class="service">
+        <div class="icon">📺</div>
+        Cable TV
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 EmesVTU. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
